@@ -1,0 +1,24 @@
+{
+	"name": 		"MVCSample",
+	"description": 	"The very basic mvc framework and test",
+	"keywords":		["mvc", "unit test", "composer", "json"],
+	"homepage":		"http://tungtruong.gitbub.io/mvc-test",
+	"time":			"2015-01-01",
+	"license":		"MIT",
+	"authors": [
+		{
+			"name": 	"Tung Truong",
+			"email":	"truongthanhtung@gmail.com",
+			"homepage":	"http://tungtruong.github.io",
+			"role":		"Main contributor"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"phpunit/phpunit": "4.6.*@dev"
+	},
+
+	"autoload": {
+		"psr-4": {"MVCSample\\": "/src"}
+	}
+}
